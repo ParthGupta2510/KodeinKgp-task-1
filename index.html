@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Taj</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<!-- body code -->
+
+<body>
+    <div class="container">
+        <!-- header code -->
+        <header>
+            <!-- navbar code -->
+            <nav>
+                <div class="nav">
+                    <ul type="none">
+                        <li><a href="#menu">Our Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reservation">Reservation</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <section class="home">
+                <div class="h__content">
+                    <div>
+                        <h1>
+                            Welcome to <br />
+                            <span>The Taj</span>
+                        </h1>
+                        <h2>Our Dishes are beyond the boundaries of taste</h2>
+                    </div>
+                    <div class="h__content-btn">
+                        <a href="#reservation">
+                            <div class="btn btn1">BOOK A TABLE</div>
+                        </a><a href="#menu">
+                            <div class="btn btn2">SEE THE MENU</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="h__image">
+                    <div class="h__img-bg"></div>
+                    <div class="h__img-container">
+                        <img src="./images/chef.png" alt="" class="seperate" />
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <!-- Menu code -->
+            <section id="menu">
+                <h2>Our Menu</h2>
+                <div class="menu__card-container">
+                    <div class="menu__card">
+                        <div class="m__img-container">
+                            <img src="./images/food-gallery/food5.jpg" alt="" />
+                        </div>
+                        <div class="m__info">
+                            <h3>
+                                Paneer Tikka Roll
+                            </h3>
+                            <p>Price <span>₹300 for one</span></p>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu__card">
+                        <div class="m__img-container">
+                            <img src="./images/food-gallery/food6.jpg" alt="" />
+                        </div>
+                        <div class="m__info">
+                            <h3>
+                                Idli Sambar
+                            </h3>
+                            <p>
+                                Price
+                                <span>₹150 for one</span>
+                            </p>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                    <div class="menu__card">
+                        <div class="m__img-container">
+                            <img src="./images/food-gallery/food8.jpg" alt="" />
+                        </div>
+                        <div class="m__info">
+                            <h3>
+                                Chocolate Brownie
+                            </h3>
+                            <p>
+                                Price
+                                <span>₹250 for one</span>
+                            </p>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery -->
+            <section id="gallery">
+                <h2>Our Gallery</h2>
+                <div class="gallery__grid">
+                    <div class="g__img-container">
+                        <img src="./images/food-gallery/food1.jpg" alt="" />
+                    </div>
+                    <div class="g__img-container">
+                        <img src=".\images\food-gallery\food2.jpg" alt="" style="width: 300px; height: 300px" />
+                    </div>
+                    <div class="g__img-container">
+                        <img src=".\images\food-gallery\food3.jpg" alt="" style="width: 300px" />
+                    </div>
+                    <div class="g__img-container">
+                        <img src=".\images\food-gallery\food4.jpg" alt="" />
+                    </div>
+                    <div class="g__img-container">
+                        <img src="./images/food-gallery/food5.jpg" alt="" style="width: 350px" />
+                    </div>
+                    <div class="g__img-container">
+                        <img src="./images/food-gallery/food6.jpg" alt="" style="width: 280px" height="275px;" />
+                    </div>
+                    <div class="g__img-container">
+                        <img src="./images/food-gallery/food7.jpg" alt="" style="height: 300px; width: 300px" />
+                    </div>
+                    <div class="g__img-container">
+                        <img src=".\images\food-gallery\food8.jpg" alt="" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reservation -->
+            <section id="reservation">
+                <div><img src="./images/table_2.jpg" alt="reservation table" /></div>
+                <div>
+                    <h2>Reserve a Table</h2>
+
+                    <!-- reservation form code -->
+                    <form action="#">
+                        <div class="form__component">
+                            <label for="name" class="label1">First Name</label>
+                            <input type="text" name="name" id="name" class="input1" />
+                        </div>
+
+                        <div class="form__component">
+                            <label for="name" class="label1">Last Name</label>
+                            <input type="text" name="name" id="name" class="input1" />
+                        </div>
+
+                        <div class="form__component">
+                            <label for="name" class="label1">Phone Number</label>
+                            <input type="text" name="name" id="name" class="input1" />
+                        </div>
+
+                        <div class="form__component">
+                            <label for="email" class="label2">Email</label>
+                            <input type="email" name="email" id="email" class="input2" />
+                        </div>
+
+                        <div class="form__component">
+                            <label for="date" class="label3">Date</label>
+                            <input type="date" name="date" id="date" class="input3" />
+                        </div>
+
+                        <div class="form__component">
+                            <label for="time" class="label4">Time</label>
+                            <input type="time" name="time" id="time" class="input4" />
+                        </div>
+
+                        <div class="form__component">
+                            <label for="people" class="label5">We are</label>
+                            <select name="people" id="people" class="inpuut5">
+                                <option value="1">One Person</option>
+                                <option value="2">Two People</option>
+                                <option value="4">Four People</option>
+                                <option value="6">Six People</option>
+                                <option value="8">Eight People</option>
+                                <option value="8+">More than 8</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="button">Find a Table</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer id="contact">
+            <!-- Contact code-->
+            <div>
+                <img src="./images/thanks.png" alt="thank you">
+            </div>
+            <div>
+                <h1>The Taj</h1>
+                <div class="contact__info">
+                    <ul>
+                        <li>Phone: 200200200</li>
+                        <li>Email: ababab@gmail.com</li>
+                    </ul>
+                    <div>
+                        <h3>Opening Hours</h3>
+                        <ul>
+                            <li>Mon-Thu: 7.00am - 8.00pm</li>
+                            <li>Fri-Sun: 7.00am - 10.00pm</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Our Location</h3>
+                        <ul>
+                            <li>19th Paradise Street</li>
+                            <li>Sitia 128</li>
+                            <li>Meserole Avenue</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
